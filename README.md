@@ -10,6 +10,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/paperboyseo/paperboy?style=flat&logo=github)](https://github.com/paperboyseo/paperboy/stargazers)
 ![Node 22+](https://img.shields.io/badge/node-%E2%89%A522-339933.svg)
 ![Status: alpha](https://img.shields.io/badge/status-v0.1%20alpha-orange.svg)
+[![As seen on Open Source Alternatives](https://www.opensourcealternatives.to/badge-osa.svg)](https://www.opensourcealternatives.to)
 
 [Self-host in 60 seconds](#60-second-quickstart) · [How the fact check works](#how-the-fact-check-works) · [Use it from an AI agent (MCP)](#mcp-use-it-from-an-ai-agent) · [Paperboy Cloud](https://paperboyseo.com)
 
