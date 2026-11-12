@@ -4,11 +4,11 @@
 
 ## Set up
 
-Build the CLI once (it is not on npm), and sign in so the key is saved (`paperboy connect`), or pass the key in the environment:
+Install the CLI from npm, and sign in so the key is saved (`paperboy connect`), or pass the key in the environment:
 
 ```bash
-npm ci --prefix packages/cli && npm run build --prefix packages/cli
-node packages/cli/dist/cli.js connect --self-host http://localhost:3000
+npm install -g @paperboyseo/cli
+paperboy connect --self-host http://localhost:3000
 ```
 
 Claude Code:

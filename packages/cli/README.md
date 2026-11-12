@@ -8,14 +8,14 @@ The command line for [Paperboy](https://paperboyseo.com), the open-source growth
 
 ## Install
 
-`@paperboyseo/cli` is not on npm. Run it from a clone of the repository (Node 22 or newer):
+Install from npm (Node 22 or newer):
 
 ```sh
-git clone https://github.com/paperboyseo/paperboy.git && cd paperboy
-npm ci --prefix packages/cli && npm run build --prefix packages/cli
-alias paperboy="node $PWD/packages/cli/dist/cli.js"     # also available as paperboy-seo via the package bin
+npm install -g @paperboyseo/cli   # installs `paperboy` and `paperboy-seo`
 paperboy connect
 ```
+
+Or run it once without installing: `npx @paperboyseo/cli --help`. To hack on it, build from a clone: `npm ci --prefix packages/cli && npm run build --prefix packages/cli`.
 
 Note: the unscoped npm package named `paperboy` is a different project, so do not `npx paperboy`.
 

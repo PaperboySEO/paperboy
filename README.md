@@ -36,11 +36,10 @@ docker compose up --build   # Postgres, migrations, API server and worker on htt
 
 On every start the `migrate` service applies any new database migrations, sets the app role's password and creates your operator account, then the API server and the worker come up. Check it with `curl http://localhost:3000/api/health`.
 
-Drive it with the CLI. It is not published to npm, so run it from source (Node 22 or newer):
+Drive it with the CLI, published to npm as `@paperboyseo/cli` (Node 22 or newer):
 
 ```bash
-npm ci --prefix packages/cli && npm run build --prefix packages/cli
-alias paperboy="node $PWD/packages/cli/dist/cli.js"
+npm install -g @paperboyseo/cli   # or run any command with: npx @paperboyseo/cli --help
 
 paperboy connect https://your-site.com --self-host http://localhost:3000
 paperboy check https://your-site.com/some-article   # fact check any live page, no Anthropic key needed

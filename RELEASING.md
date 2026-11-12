@@ -38,4 +38,4 @@ The script has one default repository URL at the top (`REPO_URL`) unless the env
 
 - No invented numbers: no stars, users, downloads or traffic. Only what the changelog, the docs or the code can show.
 - No dashes in prose (house style, see [CONTRIBUTING.md](CONTRIBUTING.md)). The script replaces any it finds.
-- Say what is not done. The CLI is not on npm until it is, and the posts say "run from source".
+- Say what is not done. The CLI is on npm as `@paperboyseo/cli`; posts say `npx @paperboyseo/cli`, never the unscoped `paperboy` package.
