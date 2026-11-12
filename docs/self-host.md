@@ -29,7 +29,7 @@ What starts:
 
 ## Log in
 
-The CLI uses a device flow. Build it from source (it is not on npm): `npm ci --prefix packages/cli && npm run build --prefix packages/cli`, then run `node packages/cli/dist/cli.js connect https://your-site.com --self-host http://localhost:3000`. Open the printed URL, enter the code and the admin password from `.env` (the page asks for the code and the password, not the email). The key is saved to `~/.config/paperboy/config.json`.
+The CLI uses a device flow. Install it with `npm install -g @paperboyseo/cli`, then run `paperboy connect https://your-site.com --self-host http://localhost:3000`. Open the printed URL, enter the code and the admin password from `.env` (the page asks for the code and the password, not the email). The key is saved to `~/.config/paperboy/config.json`.
 
 ## Search Console
 
