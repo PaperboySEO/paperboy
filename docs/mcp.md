@@ -14,7 +14,7 @@ paperboy connect --self-host http://localhost:3000
 Claude Code:
 
 ```bash
-claude mcp add paperboy -- node /path/to/paperboy/packages/cli/dist/cli.js mcp
+claude mcp add paperboy -- npx -y @paperboyseo/cli mcp
 ```
 
 Claude Desktop, Cursor and other clients take the same command in their JSON config:
@@ -23,8 +23,8 @@ Claude Desktop, Cursor and other clients take the same command in their JSON con
 {
   "mcpServers": {
     "paperboy": {
-      "command": "node",
-      "args": ["/path/to/paperboy/packages/cli/dist/cli.js", "mcp"],
+      "command": "npx",
+      "args": ["-y", "@paperboyseo/cli", "mcp"],
       "env": { "PAPERBOY_BASE_URL": "http://localhost:3000", "PAPERBOY_API_KEY": "pb_live_..." }
     }
   }
